@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="website">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>&#x0BAA&#x0BBE&#x0BA3&#x0BCD&#x0B9F&#x0BBF&#x0BAF&#x0ba9&#x0BCD &#x0BAA&#x0BCA - Web designer</title>
+        
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="assets/css/pans.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+          <script src="assets/js/html5shiv.min.js"></script>
+          <script src="assets/js/respond.min.js"></script>
+        <![endif]-->
+        <script src="assets/js/angular.min.js"></script>
+        <script src="assets/js/angular-route.min.js"></script>
+    </head>
+    <body>
+        <div data-ng-include="'partials/header.html'"></div>
+        <div data-ng-include="'partials/nav.html'"></div>
+        <div class="container" style="margin-bottom:50px;">
+            <data-ng-view></data-ng-view>
+<!--
+            <div class="pans-container">
+                dfdsf
+            </div>
+-->
+        </div>
+        <div data-ng-include="'partials/footer.html'"></div>
+        <script src="assets/app.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/engin.js"></script>
+    </body>
+</html>
